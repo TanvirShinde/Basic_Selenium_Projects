@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[TC3]]>
+    </line>
+    <line>
+      <![CDATA[TC1]]>
+    </line>
+    <line>
+      <![CDATA[TC1]]>
+    </line>
+    <line>
+      <![CDATA[TC4]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-10-25T12:45:03 PDT" name="Suite" finished-at="2022-10-25T12:45:57 PDT" duration-ms="53811">
+    <groups>
+    </groups>
+    <test started-at="2022-10-25T12:45:03 PDT" name="Test" finished-at="2022-10-25T12:45:55 PDT" duration-ms="52608">
+      <class name="parallelExecutioninTestNG.ParallelExecutionOfClasses">
+        <test-method signature="testCase1()[pri:0, instance:parallelExecutioninTestNG.ParallelExecutionOfClasses@419c5f1a]" started-at="2022-10-25T12:45:03 PDT" name="testCase1" finished-at="2022-10-25T12:45:55 PDT" duration-ms="51666" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[TC1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testCase1 -->
+      </class> <!-- parallelExecutioninTestNG.ParallelExecutionOfClasses -->
+      <class name="parallelExecutioninTestNG.ParallelExecutionOfClasses2">
+        <test-method signature="testCase2()[pri:0, instance:parallelExecutioninTestNG.ParallelExecutionOfClasses2@7f010382]" started-at="2022-10-25T12:45:03 PDT" name="testCase2" finished-at="2022-10-25T12:45:55 PDT" duration-ms="52516" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[TC1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testCase2 -->
+      </class> <!-- parallelExecutioninTestNG.ParallelExecutionOfClasses2 -->
+    </test> <!-- Test -->
+    <test started-at="2022-10-25T12:45:03 PDT" name="Test2" finished-at="2022-10-25T12:45:57 PDT" duration-ms="53811">
+      <class name="parallelExecutioninTestNG.ParallelExecutionOfClasses4">
+        <test-method signature="testCase4()[pri:0, instance:parallelExecutioninTestNG.ParallelExecutionOfClasses4@10e41621]" started-at="2022-10-25T12:45:03 PDT" name="testCase4" finished-at="2022-10-25T12:45:56 PDT" duration-ms="52961" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[TC4]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testCase4 -->
+      </class> <!-- parallelExecutioninTestNG.ParallelExecutionOfClasses4 -->
+      <class name="parallelExecutioninTestNG.ParallelExecutionOfClasses3">
+        <test-method signature="testCase3()[pri:0, instance:parallelExecutioninTestNG.ParallelExecutionOfClasses3@19bb07ed]" started-at="2022-10-25T12:45:03 PDT" name="testCase3" finished-at="2022-10-25T12:45:57 PDT" duration-ms="53705" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[TC3]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testCase3 -->
+      </class> <!-- parallelExecutioninTestNG.ParallelExecutionOfClasses3 -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>
